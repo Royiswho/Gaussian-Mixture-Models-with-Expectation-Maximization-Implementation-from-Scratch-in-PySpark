@@ -22,7 +22,9 @@ GMM_EM_Pyspark_Product.ipynb:
 * GMM with EM implemented from library
 * K-means implemented from library
 
-## Model Prediction Visualization
+## Model Prediction
+
+▶ Visualization
 
 <img src="images/4.png" width = "500" align="center">
 
@@ -31,6 +33,18 @@ GMM_EM_Pyspark_Product.ipynb:
 <img src="images/13.png" width = "500" align="center">
 
 <img src="images/15.png" width = "500" align="center">
+
+▶ Log-likelihood
+
+* In GMM library implementation, GMM’s log-likelihood is maximized to -1200.238
+
+* In implementation from scratch, GMM’s log-likelihood is maximized to -1200.258
+
+▶ Accuracy
+
+|           | GMM from scratch  | GMM Lib  | K-means |
+|-----------|-------------------|----------|---------|
+| Accuracy  | 95.3%             | 95.0%    | 94.3%   |
 
 # Other Documents. 
 
